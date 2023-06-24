@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Library System</title>
+</head>
+
+<body>
+  <header>
+    <nav class="sticky">
+        <a class="libhead" href="#Library System">Library System</a>
+      <ul>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a href="#LogOut">LogOut</a></li>
+      </ul>
+    </nav>
+  </header><br><br>
+
+  <main>
+   <section class="book">
+         <h2>Book</h2>
+          <table>
+             <thead>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Gener</th>
+                <th>Availability</th>
+             </thead>
+<tbody>
+    <tr>
+        <td>1</td> 
+           <td>
+            <a class="anchor" href="#The Rise of Sivagami">The Rise of Sivagami</a>
+            <table>
+                <tr>
+                    <td>Publication Date:2000</td>
+                </tr>
+                <tr>
+                    <td>Page Count:250</td>    
+                </tr>
+                <tr>
+                    <td>ISBN:123-4567890123</td>
+                </tr>
+            </table>
+          </td>
+        <td>ANAND NEELAKANTAN</td>
+        <td>History</td>
+        <td>Available</td>
+    </tr>
+
+
+    <tr>
+        <td>2</td> 
+        <td>
+            <a class="anchor" href="#MAHABHARATA">MAHABHARATA</a>
+            <table>
+                <tr>
+                    <td>Publication Date:1951</td>
+                </tr>
+                <tr>
+                    <td>Page Count:300</td>    
+                </tr>
+                <tr>
+                    <td>ISBN:123-4567890456</td>
+                </tr>
+            </table>
+        </td>
+        <td>C. RAJAGOPALACHARI</td>
+        <td>History</td>
+        <td>Not Available</td>
+    </tr>
+
+
+    <tr>
+        <td>3</td> 
+        <td>
+            <a class="anchor" href="#RAMAYANA (Series)">RAMAYANA (Series)</a>
+            <table>
+                <tr>
+                    <td>Publication Date:2010</td>
+                </tr>
+                <tr>
+                    <td>Page Count:350</td>    
+                </tr>
+                <tr>
+                    <td>ISBN:123-4567890789</td>
+                </tr>
+             </table>
+             </td>
+             <td>ASHOK K. BANKER</td>
+             <td>History</td>
+             <td>Available</td>
+             </tr>
+
+             <tr>
+                <td>4</td> 
+                <td>
+                    <a class="anchor" href="#HANUMAN CHALISA">HANUMAN CHALISA</a>
+                    <table>
+                        <tr>
+                            <td>Publication Date:2010</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:350</td>    
+                        </tr>
+                        <tr>
+                            <td>ISBN:123-4567890789</td>
+                        </tr>
+                     </table>
+                     </td>
+                     <td>DEVDUTT PATTANAIK</td>
+                     <td>History</td>
+                     <td>Available</td>
+                     </tr>
+
+                     <tr>
+                        <td>5</td> 
+                        <td>
+                            <a class="anchor" href="#Raavan:Enemy of Aryavarta">Raavan:Enemy of Aryavarta</a>
+                            <table>
+                                <tr>
+                                    <td>Publication Date:2010</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:350</td>    
+                                </tr>
+                                <tr>
+                                    <td>ISBN:123-4567890789</td>
+                                </tr>
+                             </table>
+                             </td>
+                             <td>Amish</td>
+                             <td>History</td>
+                             <td>Available</td>
+                             </tr>
+                
+        
+
+        </tbody>
+      </table>
+   </section><br><br>
+    
+   <section class="register">
+    <h2 class="reg">Register</h2><hr>
+       <form>
+          <label for="fname">First Name:</label>
+          <input type="text"  id="fname" placeholder="Enter First Name " required><br>
+
+          <label for="lname">Last Name:</label>
+          <input type="text"  id="lname" placeholder="Enter Last Name" required><br>
+
+          <label for="dob">Date Of Birth:</label>
+          <input type="date"  id="dob" placeholder="Enter Date Of Birth" required><br>
+
+          <label for="age">Age:</label>
+          <input type="number"  id="age" min="5" max="100" placeholder="Enter Age" required><br>
+
+          <label for="email">Email:</label>
+          <input type="email"  id="email" placeholder="Enter Email" required><br>
+
+          <label for="password">password:</label>
+          <input type="password"  id="password" placeholder="Enter Password"  required><br>
+
+          <label for="confirm-password">confirm-password:</label>
+          <input type="password"  id="confirm-password"  placeholder="Enter Confirm-Password" required><br><br>
+
+          <button type="submit">Register</button>
+       </form>
+
+   </section><br><br>
+
+  </main>
+</body>
+
+</html>

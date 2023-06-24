@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color: rgb(238, 236, 236);
+
+  }
+  
+  .anchor{
+      color:blue;
+      text-decoration: underline;
+    }
+    
+    .book{
+        border:4px solid grey;
+        background-color: white;
+        /* background-image:url("book.jpg");
+        background-size: cover; */
+        width:700px;
+        height:940px;
+        padding:15px;
+        margin-left: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(61, 61, 61);
+        
+    }
+    .register{
+        border:4px solid grey ;
+        background-color: white;
+        width:700px;
+        height:620px;
+        padding:15px;
+        margin-left: 400px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgb(61, 61, 61);
+    }
+    
+    header {
+    background-color:rgb(45, 44, 44);
+    padding: 10px;
+    color:white;
+    }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+}
+.libhead{
+    list-style: none;
+    color:white;  
+    text-decoration: none;
+    list-style: none;
+   
+}
+.libhead:hover{
+    color:#3211b3;
+
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+   
+    color:#3211b3;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  
+  h2 {
+    margin-bottom: 10px;
+    
+  }
+  .reg{
+    color:red;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  thead{
+   background-color:grey ; 
+  }
+  
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    color:red;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='date'],
+  input[type='number'],
+  input[type='password'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  input[type='text']:hover,
+  input[type='email']:hover{
+  text-decoration: underline;
+  background-color:rgb(164, 233, 243);
+}
+button[type='submit'] {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-bottom: 10px;
+   
+}
+
+button[type='submit']:hover {
+    background-color:black;
+  }
